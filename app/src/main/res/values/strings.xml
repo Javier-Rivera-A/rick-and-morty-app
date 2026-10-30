@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Rick and Morty App</string>
+
+    <!-- Estado de conexión -->
+    <string name="connection_online">En línea</string>
+    <string name="connection_offline">Sin conexión</string>
+    <string name="offline_banner">No hay conexión a internet. Los datos no se pueden actualizar.</string>
+
+    <!-- Lista de personajes -->
+    <string name="character_list_title">Personajes</string>
+    <string name="search_by_name">Buscar por nombre</string>
+    <string name="clear_search">Borrar búsqueda</string>
+    <string name="filter_status">Estado</string>
+    <string name="filter_gender">Género</string>
+    <string name="filter_all">Todos</string>
+    <plurals name="results_count">
+        <item quantity="one">Mostrando %1$d de %2$d personaje</item>
+        <item quantity="other">Mostrando %1$d de %2$d personajes</item>
+    </plurals>
+    <string name="no_results">No se encontraron personajes con esos filtros</string>
+    <string name="retry">Reintentar</string>
+
+    <!-- Estados y géneros -->
+    <string name="status_alive">Vivo</string>
+    <string name="status_dead">Muerto</string>
+    <string name="status_unknown">Desconocido</string>
+    <string name="gender_female">Femenino</string>
+    <string name="gender_male">Masculino</string>
+    <string name="gender_genderless">Sin género</string>
+    <string name="gender_unknown">Desconocido</string>
+
+    <!-- Detalle -->
+    <string name="back">Volver</string>
+    <string name="detail_species">Especie</string>
+    <string name="detail_type">Tipo</string>
+    <string name="detail_gender">Género</string>
+    <string name="detail_origin">Origen</string>
+    <string name="detail_location">Última ubicación conocida</string>
+    <string name="detail_location_type">Tipo de lugar</string>
+    <string name="detail_dimension">Dimensión</string>
+    <string name="detail_residents">Residentes</string>
+    <string name="detail_episodes">Episodios (%1$d)</string>
+    <string name="not_available">No disponible</string>
+
+    <!-- Errores -->
+    <string name="error_no_connection">No se pudo conectar con el servidor. Revise su conexión a internet.</string>
+    <string name="error_loading_characters">Ocurrió un error al cargar los personajes</string>
+    <string name="error_loading_detail">Ocurrió un error al cargar el detalle del personaje</string>
+</resources>
